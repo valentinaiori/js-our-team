@@ -91,4 +91,4 @@ for (let i = 0; i < arrayOfObject.length; i++){
                 </div>`
 }
 
-teamContainer.innerHTML = `<div>${content}</div>`
+teamContainer.innerHTML = `${content}`
