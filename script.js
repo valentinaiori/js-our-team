@@ -82,15 +82,12 @@ let content = '';
 
 for (let i = 0; i < arrayOfObject.length; i++){
     const classe = arrayOfObject[i];
-    content += `<div class="card-container">
-                    <div class="card">
+    content += `<div class="card">
                     <div>
                     <img src="img/${classe.foto}" alt="${classe.foto}" /> 
                     </div>
                     <div class="text">${classe.nome} </div>
                     <div class="text">${classe.ruolo} </div>
-                    
-                    </div>
                 </div>`
 }
 

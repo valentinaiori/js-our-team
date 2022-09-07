@@ -8,13 +8,10 @@
 #container{
     max-width: 1200px;
     margin: 0 auto;
-}
-
-    
-
-.card-container{
     width: calc(100% / 3);
     padding: 10px;
+    display: flex;
+    flex-wrap: wrap
 }
 
 .card{
