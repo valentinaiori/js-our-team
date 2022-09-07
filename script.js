@@ -82,11 +82,16 @@ let content = '';
 
 for (let i = 0; i < arrayOfObject.length; i++){
     const classe = arrayOfObject[i];
-    content += `<li>
-                    <li>${classe.nome} </li>
-                    <li>${classe.ruolo} </li>
-                    <img src="img/{classe.foto} alt="${classe.foto}</img> 
-                </li>`
+    content += `<div class="card-container">
+                    <div class="card">
+                    <div>
+                    <img src="img/${classe.foto}" alt="${classe.foto}" /> 
+                    </div>
+                    <div class="text">${classe.nome} </div>
+                    <div class="text">${classe.ruolo} </div>
+                    
+                    </div>
+                </div>`
 }
 
-teamContainer.innerHTML = `<ul>${content}</ul>`
+teamContainer.innerHTML = `<div>${content}</div>`

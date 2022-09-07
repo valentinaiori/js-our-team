@@ -5,22 +5,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #container{
-    max-width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-#card{
-    background-color: aqua;
-    height: 300px;
-    width: 300px;
-    margin-top: 50px;
-    margin-left: 20px;
+
     
-    
-    
-    
+
+.card-container{
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.card{
+    background-color: bisque;
+    border-radius: 25px;
+}
+
+.text{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.card img{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
 }
